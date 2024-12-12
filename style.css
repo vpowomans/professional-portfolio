@@ -2,7 +2,7 @@
 
 .navbar {
     padding: 0.5rem;
-    background-color:azure;
+    background-color:rgba(80, 76, 76, 0);
 }
 .navbar a{
     color:black
@@ -71,18 +71,18 @@ h1{
    background-position: center;
   }
   @media screen and (max-width: 768px) {
-      .hero{ 
-          background-size: cover;
-          background-position: center;
-          min-height: 70vh;
+      .hero{
+        background-size: cover;
+        background-size: center;
+        min-height: 70vh;
        }
   }
   
   @media screen and (max-width: 480px){
       .hero{
-          background-size: cover;
-          background-position: center;
-          min-height: 60vh;
+        background-size: cover;
+        background-size: center;
+        min-height: 60vh;
         }
   }  
 
