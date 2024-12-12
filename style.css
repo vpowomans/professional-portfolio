@@ -38,8 +38,8 @@ h1{
 
 .container img{
     
-    height: 250px;
-    justify-content: center;
+   height: 250px;
+   justify-content: center;
    align-items: center;
    display: flex;
 }
@@ -47,14 +47,12 @@ h1{
 
 .section-title{
     font-size: 4rem;
-    padding: 50px  0;
+    padding: 20px  0;
     font-family:'merriweather';
+    margin:40px 40px;
+    display:flex;
 }
-.section-text{
-    font-size:  1.5rem;
 
-
-}
 
 
 /* Section Hero */
