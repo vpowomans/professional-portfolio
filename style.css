@@ -1,24 +1,38 @@
 /* nav bar navigation */
+.navbar{
+  padding: 0.5rem;
+  background-color:rgba(80, 76, 76, 0);
 
-.navbar {
-    padding: 0.5rem;
-    background-color:rgba(80, 76, 76, 0);
 }
 .navbar a{
-    color:black
+  color:black
 }
 
 .navbar-collapse {
-    align-items: center;
-    justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1001;
 }
-/* general styles */
+@media (max-width: 768px) {
+  .navbar {
+    background-color: rgba(80, 76, 76, 0.9);
+  }
+}
+.image{
+  position: relative;  /* Asegura que la imagen no se solape con el menú */
+  z-index: 1; /* Asegura que la imagen esté por debajo del menú */
+  margin-top: 60px;
+}
+
+/*general styles*/
+
 
 section {
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 
 h1{
